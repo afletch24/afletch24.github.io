@@ -11,13 +11,8 @@ $(document).ready(function(){
       startingTop: '4%', // Starting top style attribute
       endingTop: '10%', // Ending top style attribute
       
-      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
-        alert("Ready");
-        console.log(modal, trigger);
-      },
-      complete: function() { alert('Closed'); } // Callback for Modal close
-    }
-  );
+      
+  });
  
 
 });
@@ -57,13 +52,4 @@ $('a[href*="#"]')
         });
       }
     }
-  });
-
-    $(document).ready(function(){
-      $('.carousel').carousel();
-    }); 
-
-      $(document).ready(function(){
-    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
   });

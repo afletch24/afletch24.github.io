@@ -4,11 +4,9 @@ html{
     display: flex;
 }
 
-a:hover {
-
-    background-color: rgb(87, 44, 51, 0.5); 
-    font-size: 34px;
-}
+ a:hover {
+    font-weight: bold;
+} 
 a {
     text-decoration: none
 }
@@ -178,9 +176,15 @@ section {
 #texas {
     margin-bottom: 20px;
 }
-.block h1{
+.block h1, .block h1 a {
     font-size: 30px;
     font-weight: bold; 
+    color: #572c33;
+}
+
+.block h1 a:hover {
+    font-size: 32px;
+    text-decoration: underline;
 }
 
 .block .subheading {
@@ -237,7 +241,6 @@ hr {
     background-color: transparent !important;
 }
 .carousel img {
-    /* margin-top: 14% !important; */
     height: 100%;
     width:100%;
 }
@@ -265,14 +268,169 @@ hr {
     display: block;
     margin: auto;
 }
-.modal a {
-    color: #e4dddd;
-}
-
-.modal a:hover {
-    font-weight: bold;
-}
 
 .modal ul li{
     display: inline-block;
+}
+
+i {
+    font-size: 30px !important;
+}
+.learnMore {
+    margin: auto;
+    padding: 0 !important;
+}
+
+.learnMore a {
+    color: #572c33;
+    padding-top: 5px;
+}
+i:hover {
+    font-weight: bold;
+}
+.modalClose a {
+    color: #e4dddd;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.modalClose a:hover {
+    font-weight: bold;
+    font-size: 120%;
+
+}
+.liveLink a{
+    color:  #e4dddd;
+}
+.liveLink a:hover{
+    font-weight: bold;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1011px){
+    .homeContent {
+        width: 49%;
+    }
+}
+@media screen and (max-width: 999px){
+  
+    .homeContent {
+        width: 50%;
+        padding-left: 2%;
+        right:0;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .header-nav li a {
+        color: #e4dddd;
+    }
+    header{
+        width: 100%;
+        left:0;
+    }
+    .header-nav{
+       padding-left: 26% !important;
+    }
+    
+}
+@media screen and (max-width: 949px){
+    .homeContent {
+        width: 52%;
+        margin-right: 24%;
+        margin-left: 24%;
+    }
+    .header-nav{
+       padding-left: 25% !important;
+    }
+   
+}
+ @media screen and (max-width: 912px){
+    .homeContent {
+        width: 54%;
+        margin-right: 23%;
+        margin-left: 23%;
+    }
+}
+
+@media screen and (max-width: 878px){
+    .homeContent {
+        width: 58%;
+        margin-right: 21%;
+        margin-left: 21%;
+    }
+    .header-nav{
+       padding-left: 22% !important;
+    }
+} 
+
+@media screen and (max-width: 815px){
+    .homeContent {
+        width: 60%;
+        margin-right: 21%;
+        margin-left: 21%;
+    }
+    .header-nav{
+       padding-left: 20% !important;
+    }
+} 
+
+@media screen and (max-width: 787px){
+    .homeContent {
+        width: 66%;
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+    .header-nav{
+       padding-left: 18% !important;
+    }
+} 
+@media screen and (max-width: 740px){
+    .header-nav{
+       padding-left: 16% !important;
+    }
+}
+@media screen and (max-width: 714px){
+    .homeContent {
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    .header-nav{
+       padding-left: 16% !important;
+    }
+} 
+@media screen and (max-width: 673px){
+    .homeContent h1{
+        font-size: 68px;
+        margin: 2%;  
+    }
+    .homeContent h2{
+        margin: 2%; 
+    }
+     .header-nav{
+       padding-left: 14% !important;
+    }
+} 
+@media screen and (max-width: 662px){
+    .homeContent h1{
+        font-size: 60px;
+    }
+      .header-nav{
+       padding-left: 13% !important;
+    }
+}
+@media screen and (max-width: 603px){
+      .header-nav{
+       padding-left: 11% !important;
+    }
+}
+@media screen and (max-width: 587px){
+    .homeContent h1{
+        font-size: 56px;
+    }
+      .header-nav{
+       padding-left: 9% !important;
+    }
 }
