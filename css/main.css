@@ -84,6 +84,11 @@ section {
     margin-top: 5%;
     color: #572c33;
 }
+.poster {
+    display: none;
+}
+
+/* Side Nav Bar   */
 .side-nav .divider {
     margin:0 !important;
     background-color: rgba(0,0,0,0.75);
@@ -91,12 +96,16 @@ section {
 .side-nav {
     background-color: #e4dddd !important;
     font-family: 'Raleway', sans-serif;
+    width: 280px !important;
 }
 #navIcon {
     color: #572c33 !important;
     position: fixed;
     left: 25px;
     top: 20px;
+}
+.user-view{
+    padding: 28px 28px 0 !important;
 }
 .user-view h4 {
     color: #e4dddd !important;
@@ -110,7 +119,7 @@ section {
     width: 85px !important;
 }
 .side-nav .user-view .background, .side-nav .userView .background {
-    height: 211px !important;
+    height: 230px !important;
 }
 /* About Section  */
 #about {
@@ -291,8 +300,8 @@ hr {
     width: 100%;
 }
 .modalImg {
-    width: 70%;
-    max-height: 290px;
+    /* width: 70%; */
+    max-height: 350px;
     border: 4px solid #e4dddd;
     display: block;
     margin: auto;
@@ -433,6 +442,11 @@ i:hover {
    .homeContent {
         width: 54%;
     }
+}
+@media screen and (max-width: 1050px){
+   .modalImg {
+       width: 100%;
+   }
 }
 @media screen and (max-width: 1030px){
     .homeContent {
@@ -745,7 +759,50 @@ i:hover {
         font-size: 10px;
     }
 }
+
+/*iPhone screen size  */
 @media screen and (max-width: 320px){
+    video {
+            height: 300px !important;
+    }
+    .coverr {
+        height: 300px;
+    }
+    .video-container{
+        height: 300px !important;
+    }
+    .homeContent {
+        padding: 5px;
+        width: 87%;
+        margin-top: 35%;
+    } 
+    .headshot {
+        height: 100px;
+        width: 100px;
+    }
+    #aboutMeInfo-col {
+        padding:0;
+    }
+    #aboutMeInfo-col h1{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom:0;
+    }
+    #aboutMeInfo-col p{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+     #aboutMeInfo-col li{
+        padding-left: 10px;
+        font-size: 12px;
+    }
+     #aboutMeInfo-col li a{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+
+
     .social, #navIcon{
         left: 2%;
     }
