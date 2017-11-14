@@ -217,7 +217,9 @@ hr {
 }
 
 /*  works/projects  */
-
+#works {
+    padding-top: 2%;
+}
  #works .topics {
     flex-direction: column;
  }
@@ -306,6 +308,32 @@ i:hover {
     font-weight: bold;
 }
 
+/* Contact Model */
+#contact {
+    display: flex;
+}
+#contact h2 {
+    font-size: 40px;
+}
+#contact h4 {
+    font-size: 30px;
+}
+#contact p {
+    line-height: 1.5;
+}
+#contact a {
+    color:  #e4dddd; 
+}
+#contact a:hover {
+    background-color: rgb(87, 44, 51, 0.5);
+    font-size: 120%;
+}
+#contactLinkContainer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around; 
+
+}
 
 /* Media Queries */
 
