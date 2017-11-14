@@ -3,6 +3,9 @@ html{
     font-family: 'Raleway', sans-serif;
     display: flex;
 }
+#sidenav-overlay {
+    z-index: 0 !important;
+}
 
  a:hover {
     font-weight: bold;
@@ -12,6 +15,7 @@ a {
 }
 .modal {
     background-color: none;
+    width: 60% !important;
 }
  .home{
     position: relative;
@@ -34,7 +38,7 @@ li a {
 }
 .social{
     position: fixed;
-    left: 35px;
+    left: 25px;
     bottom: 20px;
     opacity: 0.5;
 }
@@ -51,7 +55,7 @@ li a {
     border: 4px solid #572c33;
     color:rgba(228, 221, 221, 0.9);
     background-color: rgba(137, 105, 82, 0.75);
-    z-index: 2;
+    z-index: 1;
 }
 .homeContent h1 {
     font-size: 90px;
@@ -80,8 +84,34 @@ section {
     margin-top: 5%;
     color: #572c33;
 }
+.side-nav .divider {
+    margin:0 !important;
+    background-color: rgba(0,0,0,0.75);
+}
+.side-nav {
+    background-color: #e4dddd !important;
+    font-family: 'Raleway', sans-serif;
+}
+#navIcon {
+    color: #572c33 !important;
+    position: fixed;
+    left: 25px;
+    top: 20px;
+}
+.user-view h4 {
+    color: #e4dddd !important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
 
-
+.side-nav .user-view .circle, .side-nav .userView .circle {
+    height: 85px !important;
+    width: 85px !important;
+}
+.side-nav .user-view .background, .side-nav .userView .background {
+    height: 211px !important;
+}
 /* About Section  */
 #about {
     align-content: center;
@@ -239,25 +269,30 @@ hr {
     width:100%;
 }
 
+.modal {
+    background-color: transparent;
+    background-color: #572c33 !important;
+}
 .modal-content {
     color: #e4dddd;
     background-color: #572c33;
     font-family: 'Raleway', sans-serif;
+    padding: 20px !important;
 
 }
 .modal h4 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
 }
 .modal p {
-    font-size: 20px;
+    font-size: 18px;
 }
 .imageContainer{
     width: 100%;
-    padding: auto;
 }
 .modalImg {
-    height: 320px;
+    width: 70%;
+    max-height: 290px;
     border: 4px solid #e4dddd;
     display: block;
     margin: auto;
@@ -282,11 +317,15 @@ i {
 i:hover {
     font-weight: bold;
 }
+.liveLink {
+    font-size: 18px;
+}
 .liveLink a{
     color:  #e4dddd;
 }
 .liveLink a:hover{
     font-weight: bold;
+    font-size: 20px;
 }
 
 /* Contact Model */
@@ -301,7 +340,7 @@ i:hover {
 }
 #contactLinkContainer {
      width: 100%; 
-     max-width: 800px;
+ 
      display: flex;
      justify-content: center;
 }
@@ -340,6 +379,14 @@ i:hover {
         width: 47%;
     }
 }
+@media screen and (max-width: 1300px){
+    .modal h4 {
+        font-size: 30px;
+    }
+    .modal p {
+        font-size: 15px;
+    }
+}
 @media screen and (max-width: 1270px){
     .homeContent h1{
         font-size: 86px;
@@ -362,8 +409,7 @@ i:hover {
     } 
     .header-nav {
         margin: auto;
-    }
-    
+    }    
 }
 @media screen and (max-width: 1175px){
     .homeContent h1{
@@ -450,7 +496,6 @@ i:hover {
     .projectCarousel .block {
         margin:0;
     }
-    
 }
 @media screen and (max-width: 955px){
     .homeContent {
@@ -477,6 +522,9 @@ i:hover {
     }
     .header-nav{
        padding-left: 17% !important;
+    }
+    .modalImg {
+        width: 100%;
     }
 } 
 
@@ -554,16 +602,22 @@ i:hover {
       .header-nav{
        padding-left: 12% !important;
     }
-    .social{
-        left: 25px;
-    }
 }
-@media screen and (max-width: 625px){
+@media screen and (max-width: 630px){
       .header-nav{
        padding-left: 10% !important;
     }
     .homeContent {
         margin-top: 12%;
+    }
+    #contact h2 {
+        font-size: 30px;
+    }
+    #contact h4 {
+        font-size: 25px;
+    }
+    #contact p {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 587px){
@@ -587,23 +641,112 @@ i:hover {
     }
 }
 @media screen and (max-width: 545px){
-      .header-nav{
+    .header-nav{
        padding-left: 5% !important;
     }
-}
-@media screen and (max-width: 480px){
-    .social{
-        left: 20px;
+      #contact h2 {
+        font-size: 25px;
+    }
+    #contact h4 {
+        font-size: 18px;
+    }
+    .social, #navIcon {
+        left: 4%;
     }
 }
-@media screen and (max-width: 420px){
-    .social{
-        left: 15px;
+@media screen and (max-width: 530px){
+    .homeContent {
+        width:70%;
+    }
+    #name {
+        font-size: 48px;
+    }
+    .homeContent h2 {
+        font-size: 23px;
     }
 }
-
+@media screen and (max-width: 495px){
+    #name {
+        font-size: 45px;
+    }
+    .homeContent h2 {
+        font-size: 20px;
+    }
+    .homeContent {
+        width:73%;
+    }
+}
+ @media screen and (max-width: 436px){
+    #contact h2 {
+        font-size: 20px;;
+    }
+    #contact h4 {
+        font-size: 15px;
+    }
+    #contact p {
+        font-size: 12px;
+    }
+    #contact a {
+        font-size: 12px;
+    }
+    .homeContent {
+        width:75%;
+    }
+} 
+@media screen and (max-width: 423px){
+    #name {
+        font-size: 42px;
+    }
+    .homeContent h2 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 400px){
+    .social, #navIcon{
+        left: 3%;
+    }
+    #navIcon {
+        top:2%;
+    }
+    .homeContent {
+        width:80%;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 376px){
+    .homeContent {
+        width:85%;
+    }
+}
+@media screen and (max-width: 376px){
+    #name {
+        font-size: 38px;
+    }
+    .homeContent h2 {
+        font-size: 15px;
+    }
+    .homeContent {
+        padding:0;
+        margin-top: 11%;
+    }
+}
 @media screen and (max-width: 365px){
-    .social{
-        left: 10px;
+    #contact h2 {
+        font-size: 15px;;
+    }
+    #contact h4 {
+        font-size: 12px;
+        margin: 0;
+    }
+    #contact p {
+        font-size: 12px;
+    }
+    #contact a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .social, #navIcon{
+        left: 2%;
     }
 }

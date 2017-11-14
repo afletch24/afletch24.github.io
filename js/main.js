@@ -10,10 +10,9 @@ $(document).ready(function(){
       outDuration: 200, // Transition out duration
       startingTop: '4%', // Starting top style attribute
       endingTop: '10%', // Ending top style attribute
-      
-      
   });
- 
+  
+  $(".button-collapse").sideNav();
 
 });
 
