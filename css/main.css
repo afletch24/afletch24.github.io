@@ -290,17 +290,6 @@ i {
 i:hover {
     font-weight: bold;
 }
-.modalClose a {
-    color: #e4dddd;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
-.modalClose a:hover {
-    font-weight: bold;
-    font-size: 120%;
-
-}
 .liveLink a{
     color:  #e4dddd;
 }
@@ -309,9 +298,6 @@ i:hover {
 }
 
 /* Contact Model */
-#contact {
-    display: flex;
-}
 #contact h2 {
     font-size: 40px;
 }
@@ -321,17 +307,30 @@ i:hover {
 #contact p {
     line-height: 1.5;
 }
+#contactLinkContainer {
+     width: 100%; 
+     max-width: 800px;
+}
 #contact a {
     color:  #e4dddd; 
+    border: 1px solid #e4dddd;
+    padding: 3px;
+    margin: 15%;
 }
 #contact a:hover {
     background-color: rgb(87, 44, 51, 0.5);
     font-size: 120%;
 }
-#contactLinkContainer {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around; 
+.modalClose a {
+    color: #e4dddd;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin: 0 !important;
+}
+.modalClose a:hover {
+    font-weight: bold;
+    font-size: 120%;
 
 }
 
