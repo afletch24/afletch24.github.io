@@ -84,8 +84,12 @@ section {
     margin-top: 5%;
     color: #572c33;
 }
+/* Coverr  */
 .poster {
     display: none;
+}
+.video-container {
+    background-color: transparent !important;
 }
 
 /* Side Nav Bar   */
@@ -763,23 +767,34 @@ i:hover {
 /*iPhone screen size  */
 @media screen and (max-width: 320px){
     video {
-            height: 300px !important;
+        height: 100% !important;
     }
     .coverr {
         height: 300px;
     }
     .video-container{
         height: 300px !important;
+        padding:0 !important;
     }
     .homeContent {
         padding: 5px;
-        width: 87%;
-        margin-top: 35%;
+        width: 94%;
+        margin-top: 60%;
     } 
+    #name {
+        font-size: 42px;
+    }
+    .homeContent h2 {
+        font-size: 18px;
+    }
     .headshot {
         height: 100px;
         width: 100px;
     }
+     .bodyTopics {
+        margin-right: 3%;
+        margin-bottom: 0;
+    } 
     #aboutMeInfo-col {
         padding:0;
     }
@@ -800,10 +815,47 @@ i:hover {
         padding-left: 2%;
         padding-right: 2%;
     }
-
-
-
-    .social, #navIcon{
+     .social, #navIcon{
         left: 2%;
+    }
+    /*resume */
+    .category h1 {
+        font-size: 40px;
+    }
+    .blockContainer {
+        width: 100%;
+    }
+    .block {
+        margin-top: 0; 
+    }
+    .block h1, .block h1 a{
+        margin:0;
+        line-height:1;
+         font-size: 20px;
+           margin-bottom: 10px;
+    }
+     .block h1 a:hover {
+        font-size: 21px;
+    }
+    .block p {
+        font-size:12px !important;
+    }
+    .block .subheading {
+        display: inline-block;
+    }
+    /*works  */
+    .initialized {
+        height: 260px !important;
+    }
+    .modal {
+        width:90% !important;
+        max-height: 80% !important;
+        top: 5%;
+    }
+    .modal-content h4{
+        font-size: 20px;
+    }
+   .modal-content p {
+        font-size: 12px;
     }
 }
