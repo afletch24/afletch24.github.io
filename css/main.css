@@ -461,20 +461,21 @@ i:hover {
 @media screen and (max-width: 999px){
     .homeContent {
         width: 60%;
+        margin-top:30%;
     }
     .homeContent h2 {
         font-size: 35px;
     }
-    .header-nav li a {
+    /* .header-nav li a {
         color: #e4dddd;
-    }
-    header{
+    } */
+    /* header{
         width: 100%;
         left:0;
     }
     .header-nav{
        padding-left: 21% !important;
-    }
+    } */
     #about {
         display: flex;
         flex-direction:column;
@@ -514,11 +515,21 @@ i:hover {
     .projectCarousel .block {
         margin:0;
     }
+     video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 600px;
+    }
+    .video-container{
+        height: 600px !important;
+        padding:0 !important;
+    }  
 }
 @media screen and (max-width: 955px){
     .homeContent {
         width: 60%;
-        margin-top: 15%;
+        margin-top: 32%;
     }
     .header-nav{
        padding-left: 20% !important;
@@ -537,6 +548,7 @@ i:hover {
 @media screen and (max-width: 878px){
     .homeContent {
         width: 66%;
+        margin-top:35%;
     }
     .header-nav{
        padding-left: 17% !important;
@@ -549,7 +561,7 @@ i:hover {
 @media screen and (max-width: 830px){
     .homeContent {
         width: 70%;
-        margin-top: 15%;
+        margin-top:38%;
     }
     .header-nav{
        padding-left: 16% !important;
@@ -570,6 +582,9 @@ i:hover {
 @media screen and (max-width: 750px){
     #name {
         font-size: 78px;
+    }
+    .homeContent {
+         margin-top:38%;
     }
     .header-nav{
        padding-left: 13% !important;
@@ -646,9 +661,16 @@ i:hover {
     .homeContent h2 {
         font-size: 28px;
     }
-    /* .header-nav{
-       padding-left: 11% !important;
-    } */
+     video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 500px;
+    }
+    .video-container{
+        height: 500px !important;
+        padding:0 !important;
+    }  
 }  
 
  @media screen and (max-width: 675px){
@@ -658,18 +680,12 @@ i:hover {
     .homeContent h2 {
         font-size: 26px;
     }
-    /* .header-nav{
-       padding-left: 14% !important;
-       font-size: 25px;
-    }
-    .header-nav li {
-        font-size: 25px;
-    } */
 }  
  @media screen and (max-width: 655px){
     #name {
         font-size: 60px;
     }
+
       /* .header-nav{
        padding-left: 12% !important;
     } */
@@ -678,9 +694,9 @@ i:hover {
       /* .header-nav{
        padding-left: 10% !important;
     } */
-    .homeContent {
-        margin-top: 12%;
-    }
+     .homeContent {
+        margin-top: 45%;
+    } 
     .homeContent h2{
         margin-top :10px;
         margin-bottom: 10px;
@@ -699,6 +715,9 @@ i:hover {
     .homeContent h1{
         font-size: 56px;
     }
+      .homeContent {
+        margin-top: 48%;
+    } 
       /* .header-nav{
        padding-left: 9% !important;
     } */
@@ -711,6 +730,9 @@ i:hover {
     .homeContent h2 {
         margin: 3%;
     }
+    .homeContent {
+        margin-top: 50%;
+    } 
       /* .header-nav{
        padding-left: 7% !important;
     } */
@@ -718,6 +740,7 @@ i:hover {
  @media screen and (max-width: 530px){
     .homeContent {
         width:70%;
+        margin-top: 52%;
     }
     #name {
         font-size: 48px;
@@ -734,6 +757,16 @@ i:hover {
      .homeContent, .bodyTopics {
         margin-right: 3%;
     }
+    video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 450px;
+    }
+    .video-container{
+        height: 450px !important;
+        padding:0 !important;
+    }  
 } 
  @media screen and (max-width: 485px){
     #name {
@@ -744,6 +777,7 @@ i:hover {
     }
     .homeContent {
         width:73%;
+        margin-top: 55%;
     }
     .headshot {
         height: 150px;
@@ -808,8 +842,18 @@ i:hover {
  @media screen and (max-width: 400px){
     .homeContent {
         width:80%;
-        margin-top: 12%;
+        margin-top: 40%;
     }
+     /* video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 300px;
+    }
+    .video-container{
+        height: 300px !important;
+        padding:0 !important;
+    }   */
 } 
 
 @media screen and (max-width: 376px){
@@ -821,8 +865,18 @@ i:hover {
     }
     .homeContent {
         padding:0;
-        margin-top: 11%;
+        margin-top: 40%;
     }
+    /* video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 300px;
+    }
+    .video-container{
+        height: 300px !important;
+        padding:0 !important;
+    }  */
 } 
  @media screen and (max-width: 330px){
     #contact h2 {
@@ -838,7 +892,7 @@ i:hover {
     #contact a {
         font-size: 10px;
     }
-     video {
+     /* video {
         height: 100% !important;
     }
     .coverr {
@@ -847,7 +901,7 @@ i:hover {
     .video-container{
         height: 300px !important;
         padding:0 !important;
-    } 
+    }  */
      .homeContent {
         margin-top: 40%;
         padding: 5px;
@@ -858,7 +912,7 @@ i:hover {
 /*iPhone screen size  */
 @media screen and (max-width: 320px){
     #name {
-        font-size: 42px;
+        font-size: 39px;
         margin: 0px;
         margin-top: 10px;
     }
