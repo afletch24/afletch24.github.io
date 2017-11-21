@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('.tooltipped').tooltip({delay: 50});
 
-  $('.carousel').carousel();
-
+   $('.slider').slider();
+   
   $('.modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal
       opacity: .5, // Opacity of modal background
