@@ -913,21 +913,42 @@ i:hover {
 
 /*iPhone screen size  */
 @media screen and (max-width: 320px){
+     video {
+        height: 100% !important;
+    }
+    .coverr {
+        height: 300px;
+    }
+    .video-container{
+        height: 300px !important;
+        padding: 0 !important;
+    }   
+    .slider {
+        height:350px !important;
+    }
+    .slider .slides {
+        height:300px !important;
+    }
     #name {
         font-size: 39px;
         margin: 0px;
         margin-top: 10px;
     }
-     .homeContent h2 {
+    .homeContent h2 {
         font-size: 18px;
         margin: 10px;
     } 
+    #headshot-col{
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
     .headshot {
         height: 100px;
         width: 100px;
     }
-     .bodyTopics {
-        margin-right: 3%;
+    .bodyTopics {
+        margin-right: 10% !important;
+        margin-left: 10% !important;
         margin-bottom: 0;
     } 
     #aboutMeInfo-col {
@@ -953,6 +974,20 @@ i:hover {
      .social, #navIcon{
         left: 2%;
     }
+    #navIcon {
+        top: 1% !important;
+    }
+    .social {
+        bottom: 15px !important;
+    }
+    .social img {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    .modal {
+        /* height: 440px; */
+        height: 50%;
+    }
     /*resume */
     .category h1 {
         font-size: 40px;
@@ -967,4 +1002,10 @@ i:hover {
         font-size:12px !important;
     }
   
+    /* Works */
+    /* #works {
+        height: 50%;
+    } */
+
+
 }
