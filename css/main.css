@@ -36,15 +36,6 @@ a {
 li a {
     color: #572c33;
 }
-.social{
-    position: fixed;
-    left: 25px;
-    bottom: 125px;
-    z-index:1;
-    /* opacity: 0.5; */
-    
-}
-
 /* .homeContent {
     width: 40%;
     position: absolute;
@@ -123,8 +114,15 @@ section {
 #navIcon {
     color: #572c33 !important;
     position: fixed;
-    left: 25px;
+    left: 2%;
     top: 20px;
+}
+.social{
+    position: fixed;
+    left: 2%;
+    top: 200px;
+    z-index:1;
+    opacity: 0.8;  
 }
 .user-view{
     padding: 28px 28px 0 !important;
@@ -463,7 +461,13 @@ i:hover {
 }
 
 /* Media Queries */
-
+@media screen and (max-width: 1360px){
+    .social {
+        position: fixed;
+       
+        bottom:0;
+    }
+}
 @media screen and (max-width: 1300px){
     .modal h4 {
         font-size: 30px;
