@@ -1,384 +1,979 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" name= "Audrey Fletcher" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!--CSS   -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/coverr.css">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8"> 
+    <title>Audrey Fletcher</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
 
- 
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+      
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"> </script>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-          
-
-    <title>Audrey Fletcher: Full Stack Web Developer</title>
 </head>
-<body>
 
-    
+<body id="top">
 
-    <div id="home" > 
-        <div class="homepage-hero-module coverr"> 
-            <div class="video-container z-depth-5">
-                <!-- <div class="filter"></div> -->
-                 <video autoplay loop class="fillWidth">
-                    <source src="css/Nature-Sunset/MP4/Nature-Sunset.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                    <source src="css/Nature-Sunset/WEBM/Nature-Sunset.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video> 
-                   <div class="poster">
-                     <img src="css/Nature-Sunset/snapshots/Nature-Sunset.jpg" alt=""> 
-                </div>   
-                
-                <div class="homeContent center-align" >
-                    <h1 id="name"> Audrey Fletcher </h1>
-                    <h2> Full Stack Web Developer </h1>
-                    <h2>Chicago, IL </h1>
-                    <!-- <a href="#about" class= "smoothscroll"> More About Me </a> -->
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <!-- <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
+        </div> -->
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <!-- <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li> -->
+                <li><a class="smoothscroll"  href="#about" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/tahoe.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Audrey Fletcher. <br>
+                    I am a Full Stack Developer <br>
+                    designer based in Chicago.
+                </h1>
+
+                <!-- <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div> -->
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
                 </div>
-            </div>
-        </div>  
-        <header>
-            <!-- <ul class="header-nav">
-                <li><a href="#home"> Home  |  </a></li>
-                <li><a href="#about"> About  | </a></li>
-                <li><a href="#resume" class="smoothscroll"> Resume  | </a></li>
-                <li><a href="#works" class="smoothscroll"> Works  | </a></li>
-                <li><a href="#contact" class="smoothscroll modal-trigger"> Contact </a></li>
-            </ul> -->
-            <ul id="slide-out" class="side-nav">
-                <li>
-                    <div class="user-view">
-                        <div class="background">
-                            <img src="css/img/wood.jpg">
-                        </div>
-                        <a href="#contact"><img class="circle modal-trigger" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAqBAAAAJGI5MzA0Nzc3LTZhZmQtNDYyOC04MmQxLTg2Njg4Y2E0N2YwOA.jpg"></a>
-                        <h4> Audrey Fletcher </h4>
-                        <h4> anfletcher24@gmail.com </h4>
-                    </div>
-                </li>
-                
-                <li><div class="divider"></div></li>
-                <li><a href="#about" class="waves-effect"><i class="material-icons">account_circle</i>About</a></li>
-                <li><div class="divider"></div></li>
-                <li><a href="#resume" class="waves-effect"><i class="material-icons">insert_drive_file</i>Resume</a></li>
-                <li><div class="divider"></div></li>
-                <li><a href="#works" class="waves-effect"><i class="material-icons">perm_media</i>Works</a></li>
-                <li><div class="divider"></div></li>
-                <li><a href="#contact" class="waves-effect modal-trigger"><i class="material-icons">perm_contact_calendar</i>Contact</a></li>
-                <li><div class="divider"></div></li>
-            </ul>
-            <a href="#"  data-activates="slide-out" class="button-collapse"><i id="navIcon" class="material-icons">menu</i></a>        
-        </header>
 
-        <div class="social">
-            <ul class="home-social">
-                <li>
-                    <a href="https://www.linkedin.com/in/audrey-fletcher/" class=" tooltipped" data-position="right" data-delay="50" data-tooltip="LinkedIn"><img src="css/img/linkedin-icon-white.png" class ="icon"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/afletch24" class=" tooltipped" data-position="right" data-delay="50" data-tooltip="Github"><img src="css/img/icon-github-white.png" class ="icon"></a>
-                </li>
-                <li>
-                    <a href="css/img/Audrey-Fletcher-Resume.pdf" download class=" tooltipped" data-position="right" data-delay="50" data-tooltip="Download Resume"><img src="css/img/document.png" class ="icon"></a>
-                </li>
-                <li>
-                    <a href="mailto:anfletcher24@gmail.com" class=" tooltipped" data-position="right" data-delay="50" data-tooltip="Say Hello "><img src="css/img/email.png" class ="icon"></a>
-                </li>
-            
-            </ul> 
-        </div> 
-    </div> 
-    
-    
-    <section id="about" class="bodyTopics z-depth-5">
-        <div id="headshot-col">
-            <img class= "headshot" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAqBAAAAJGI5MzA0Nzc3LTZhZmQtNDYyOC04MmQxLTg2Njg4Y2E0N2YwOA.jpg" alt="Audrey Fletcher">
-        </div>
-        <div id="aboutMeInfo-col">
-            <h1> About Me </h1>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.linkedin.com/in/audrey-fletcher/"><i class="im im-linkedin" aria-hidden="true"> </i><span>LinkedIn</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/afletch24"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+            <li>
+                <a href="images/audrey-fletcher-resume.pdf"><i class="im im-file-o" aria-hidden="true"></i><span>Resume</span></a>
+            </li>
+            <li>
+                <a href="mailto:anfletcher24@gmail.com"><i class="im im-mail" aria-hidden="true"></i><span>Email</span></a>
+            </li>
+           
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
         
-            <p> Full Stack Web Developer who is energized by solving problems, creating things, and collaborating within a team. </p>
-            <h1> Contact Details </h1>
-            
-            <ul>
-                <li> Audrey Fletcher </li>
-                <li> anfletcher24@gmail.com </li>
-                <li> (920) 809-9696 </li> 
-                <li> 
-                        <a href="https://www.linkedin.com/in/audrey-fletcher/" class=" tooltipped" data-position="bottom" data-delay="10" data-tooltip="LinkedIn"><img src="css/img/linkedin-icon.png" class ="icon"></a>
-                    
-                        <a href="https://github.com/afletch24" class=" tooltipped" data-position="bottom" data-delay="10" data-tooltip="Github"><img src="css/img/githubicon.png" class ="icon"></a>
-                    
-                        <a href="css/img/Audrey-Fletcher-Resume.pdf" download class=" tooltipped" data-position="bottom" data-delay="10" data-tooltip="Download Resume"><img src="css/img/document-black.png" class ="icon"></a>
-                    
-                        <a href="mailto:anfletcher24@gmail.com" class=" tooltipped" data-position="bottom" data-delay="10" data-tooltip="Say Hello "><img src="css/img/email-icon-black.png" class ="icon"></a>
-                </li> 
-            </ul>
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <img class= "headshot" src="images/headshot.png" alt="Audrey Fletcher">
+                <h3>About</h3>
+                <h1>More About Me</h1>
+                <p class="lead">I am a Full Stack Developer looking for my next big adventure. I enjoy the creativity and challenge of building applications. </p>
+                <h1>Contact</h1>
+                <p id="contactInfo"> anfletcher24@gmail.com </p>
+                <p id="contactInfo"> (920) 809-9696 </p>
+                <ul class="contact-social"> 
+                    <li><a href="https://www.linkedin.com/in/audrey-fletcher/"><i class="im im-linkedin" aria-hidden="true"> </i></a></li>
+                    <li><a href="mailto:anfletcher24@gmail.com"><i class="im im-mail" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/afletch24"><i class="im im-github" aria-hidden="true"></i></a></li>
+                      
+                </ul> 
+            </div>
+            <div class="row about-content about-content--buttons">
+                <div class="col-twelve tab-full left">
+                    <a href="images/audrey-fletcher-resume.pdf" class="btn btn--primary full-width">Download My CV</a>
+                </div>
+                <!-- <div class="col-twelve tab-full right">
+                    <a href="#0" class="btn full-width">Hire Me Now</a>
+                </div> -->
+            </div> <!-- end about-content buttons -->
         </div>
-    </section>
-    
-    <section id="works" class="bodyTopics z-depth-5">
-        <div>
-            <div class="slider">
-                <ul class="slides">
-                <li> 
-                    <a class="projectImage modal-trigger" href="#modal1"><img src="css/img/showAndTell.jpg"></a> 
-                    <div class="caption left-align">
-                        <h3>Show and Tell</h3>
-                        <h5 class="light grey-text text-lighten-3">Click to Learn More</h5>
-                    </div>
-                </li>
-                <li>
-                   <a class="projectImage modal-trigger" href="#modal2"><img src="css/img/order-up.jpg"></a> 
-                    <div class="caption left-align">
-                        <h3>Order-Up</h3>
-                        <h5 class="light grey-text text-lighten-3">Click to Learn More</h5>
-                    </div>
-                </li>
-                <li>
-                   <a class="projectImage modal-trigger" href="#modal3"><img src="css/img/jusGo.jpg"></a> 
-                    <div class="caption left-align">
-                        <h3>JusGo</h3>
-                        <h5 class="light grey-text text-lighten-3">Click to Learn More</h5>
-                    </div>
-                </li>
-                <!-- <li>
-                    <a href="#modal1" class="modal-trigger"><img src="https://lorempixel.com/580/250/nature/3"></a> 
-                    <div class="caption left-align">
-                        <h3>Picture is a link</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://lorempixel.com/580/250/nature/4"> 
-                    <div class="caption left-align">
-                        <h3>This is our big Tagline!</h3>
-                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                    </div>
-                </li>  -->
+
+        <!-- <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Hello!</h3>
+
+                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
+
+                <p>
+                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
+                </p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML5</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>CSS3</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>JQuery</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>95%</span></div>
+                    <strong>PHP</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Wordpress</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Angular JS</strong>
+                    </li>   
                 </ul>
             </div>
 
+        </div>  end about-content   -->
 
 
+        <!-- <div class="row about-content about-content--buttons">
 
-            
-            <div id="modal1" class="modal">
-                <div class="modal-content">
-                    <h4 class="center-align">Show and Tell</h4>
-                    <p 
-                        class="center-align">The idea behind Show and Tell was to create a functional way for developers to display their projects to people who may not have a tech background or who are intimidated by github. Show and Tell allows the viewer to explore the each of the developer's projects by seeing an image, summary, any contributing developers, the main technologies used, as well as links to the live project and github code.
-                    </p>
-                    <br>
-                    <ul class="center-align">
-                        <li> React.js |</li>
-                        <li> MongoDB |</li>
-                        <li> Mongoose |</li>
-                        <li> Express.js |</li>
-                    </ul>
-                    <br>
-                    <div class = "imageContainer">
-                        <img class= "modalImg" src= "css/img/showAndTell.jpg">
-                    </div>  
-                    <br>
-                    <p class="center-align liveLink"><a href= "https://showandtell.herokuapp.com/"> See Show and Tell in Action </a></p>  
-                     <div class="modalClose">
-                        <a href="#works" class="modal-action modal-close right-align">X</a>
-                    </div> 
-                </div>
+            <div class="col-six tab-full left">
+                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#0" class="btn full-width">Hire Me Now</a>
             </div>
 
-            <div id="modal2" class="modal">
-                <div class="modal-content">
-                    <h4 class="center-align">Order-Up</h4>
-                    <p 
-                        class="center-align">Order-Up is a simple way for a restaurant to track customer food orders by listing the orders that are not made yet, allowing user to click "Order Up!" when the food has been made, and listing the completed orders.
-                    </p>
-                    <br>
-                    <ul class="center-align">
-                        <li> Sequelize |</li>
-                        <li> Express.js |</li>
-                        <li> Handlebars </li>
-                    </ul>
-                    <br>
-                    <div class = "imageContainer">
-                        <img class= "modalImg" src= "css/img/order-up.jpg">
-                    </div>  
-                    <!-- <br>
-                    <p class="center-align"><a href= "#"> See Show and Tell in Action </a></p>   -->
-                    <div class="modalClose">
-                        <a href="#works" class="modal-action modal-close right-align">X</a>
-                    </div>
-                </div>
-            </div>
+        </div>  end about-content buttons  -->
 
-            <div id="modal3" class="modal">
-                <div class="modal-content">
-                    <h4 class="center-align">JusGo</h4>
-                    <p 
-                        class="center-align">Jusgo is answer to your work day blues. JusGo helps to facilitate a last minute getaway for the upcoming weekend. The user can choose what weather sounds appealing and the closest airport and JusGo will output possible locations for a weekend trip!
-                    </p>
-                    <br>
-                    <ul class="center-align">
-                        <li> Javascript |</li>
-                        <li> Google Flights API |</li>
-                        <li> Weather Channel API </li>
-                    </ul>
-                    <br>
-                    <div class = "imageContainer">
-                        <img class= "modalImg" src= "css/img/jusGo.jpg">
-                    </div>  
-                    <br>
-                    <p class="center-align liveLink"><a href= "https://github.com/afletch24/WeekendGetAwayApplication"> Learn More about JusGo </a></p>
-                    
-                    <div class="modalClose">
-                        <a href="#works" class="modal-action modal-close right-align">X</a>
-                    </div>
-                </div>
-            </div>
-
-            <div id="contact" class="modal">
-                <div class="modal-content">
-                    <h2 class="center-align">Thanks for Visiting my Portfolio </h2>
-                    <h4 class="center-align"> - I would love to hear from you! - </h4>
-                    <br>
-                    <p class="center-align"> anfletcher24@gmail.com</p>
-                    <p class="center-align"> (920) 809-9696 </p>
         
-                    <br>
-                    <div id="contactLinkContainer">
-                        <a href="mailto:anfletcher24@gmail.com" class="contactMe">Send Me an Email</a>
 
-                        <a href="css/img/Audrey-Fletcher-Resume.pdf" download class="contactMe">Download my Resume </a>
-
-                    </div>
-                    <div class="modalClose">
-                        <a href="#home" class="modal-action modal-close right-align">X</a>
-                    </div>
-
+    </section> <!-- end about -->
+    
+    <!-- skills
+    ================================================== -->
+    <section id="skills" class="s-about target-section">
+        <div class="row section-intro">
+            <div class="col-full text-center">
+                <h1> Skills </h1>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-five tab-full right">    
+                   <h3> Programming Languages </h3>
+                </div>
+                <div class="col-seven tab-full left skillsRight"> 
+                    <p> HTML </p>
+                    <p> CSS: Flexbox, Bootstrap, Materialize, Handlebars.js</p>
+                    <p> Javascript: jQuery, React.js, Node.js, Express.js</p>
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-five tab-full right">    
+                   <h3> Database Systems </h3>
+                </div>
+                <div class="col-seven tab-full left skillsRight"> 
+                    <p> MySQL & Sequelize </p>
+                    <p> MongoDB & Mongoose </p>
+                    <p> Google Firebase</p>
                 </div>
             </div>
 
-            <br>
+        </div>
+        <div class="row about-content about-content--timeline">
+            <div class="col-six text-center">
+                <h3>My Education.</h3>
+            </div>
+            <div class="col-six text-center">
+                <h3>My Work Experience.</h3>
+            </div>
 
-        </div>  
-    </section>
 
-    <section id="resume" class="bodyTopics z-depth-5">
-        <ul class="collapsible z-depth-3" data-collapsible="accordion">
-            <li>
-                <div class="collapsible-header center-align"><i class="material-icons">keyboard</i>Technical Skills</div>
-                <div class="collapsible-body">
-                    <span>
-                        <div class= "topics">
-                            <div class= "category center-align">
-                                <h1> Technical Skills </h1>
-                            </div>
-                            <div class="blockContainer">
-                                <div class="block">
-                                    <h1> Front-end: </h1>
-                                    <p> JavaScript, jQuery, ReactJS, HTML, CSS, Bootstrap 4, Flexbox, Handlebars, Materialize, Media Queries  </p>
-                                </div>
-                                <div class="block">
-                                    <h1> Back-end: </h1>
-                                    <p>Node.js, Express.js, MySQL, Sequelize ORM, MongoDB, Mongoose ORM, Firebase, PHP, APIs, JSON </p>
-                                </div>
-                                <div class="block">
-                                    <h1> Developing Technologies: </h1>
-                                    <p>Github, GIT</p>
-                                </div>
-                            </div>
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Graduated 2017</p>
+                            <h3>Univeristy of Texas at Austin</h3>
+                            <h5>Full Stack Web Development Certificate</h5>
                         </div>
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header center-align"><i class="material-icons">school</i>Education</div>
-                <div class="collapsible-body">
-                    <span>
-                        <div class="topics">
-                            <div class="category center-align" >
-                                <h1> Education </h1>
-                            </div>
-                            <div class="blockContainer">
-                                <div class="block">
-                                    <h1><a href="https://www.utexas.edu/">University of Texas at Austin</a></h1>
-                                    <p class = "subheading"> Certificate in Full Stack Web Development </p>
-                                    <p class = "subheading"><span>&#8226</span>2017</p>
-                                    <br>
-                                    <p> <span> &#8226</span>A rigorous 12-week course that develops the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development. Emphasizes a hands-on approach to learning that includes weekly individual challenges that mimic real-world situations as well as larger scale collaborative group projects. </p>   
-                                </div>
-
-                                <div class="block">
-                                    <h1><a href= "https://www.wisc.edu/"> University of Wisconsin-Madison </a></h1> 
-                                    <p class = "subheading"> Bachelor of Science in Animal Science</p>
-                                    <p class = "subheading"> <span> &#8226</span>2015</p>
-                                    <!-- <p> <span> &#8226</span>XXXXX XXXXXXX XXXXXXX XXXXXX I need to write a description of my subheading here XXXXX XXXXXXX XXXXXXXX XXXXX </p> 
-                                -->
-                                    </div>
-                            </div>
+                        <div class="timeline__desc">
+                            <p>A rigorous 12-week course that developed the skills needed to build dynamic web applications and gain proficiency in the theory and application of web development. The course emphasized a hands-on approach to learning that included weekly individual challenges as well as larger scale collaborative group projects.
+                            </p>
                         </div>
-                    </span>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header center-align" id="last"><i class="material-icons">work</i>Work</div>
-                <div class="collapsible-body">
-                    <span>
-                        <div class= "topics">
-                            <div class="category center-align">
-                                <h1>Work</h1>
-                            </div>
-                            <div class="blockContainer">
+                    </div> <!-- end timeline__block -->
 
-                                <div class="block">
-                                    <h1><a href="http://parkcentrevets.com/">Park Centre Animal Hospital</a></h1>
-                                    <p class= "subheading"> Veterinary Receptionist </p>
-                                    <p class = "subheading"> <span> &#8226</span>2016</p>
-                                    <p> <span> &#8226</span> Facilitate communication between the clients and veterinarians with excellent customer service </p>
-                                    <p> <span> &#8226</span> Maintain order while multitasking hundreds of clients’ needs in a high stress environment </p>
-                                    <p class= "subheading"> Kennel Technician  </p>
-                                    <p class = "subheading"> <span> &#8226</span>2016</p>
-                                    <p> <span> &#8226</span> Ensure pristine care to animals by feeding, exercising, and administering medications</p>
-                                </div>
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">Graduated 2015</p>
+                            <h3>Univeristy of Wisconsin- Madison</h3>
+                            <h5>Bachelor of Science: Animal Science</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>
+                                The major emphasizes integration of biological principles from the gene to the organ to the herd or flock. Core courses in the major include veterinary genetics, animal physiology, comparative animal nutrition, and animal health. The major offers a business emphasis which included economics, accounting, marketing, commodity markets, and other courses from the School of Business.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
 
-                                <div class="block">
-                                    <h1>University of Wisconsin Madison</h1>
-                                    <p class= "subheading"> Research​ ​Assistant​ ​and​ ​Farm​ ​Hand​ ​on​ ​Beef​ ​Grazing​ ​and​ ​Nutrition​ ​Station</p>
-                                    <p class = "subheading"> <span> &#8226</span>2014</p>
-                                    <p> <span> &#8226</span> Collaborated with farm hands and researchers to maintain and optimize animal research studies </p>
-                                    <p class= "subheading"> Animal​ ​Caretaker​ ​at​ ​the​ ​Livestock​ ​Lab  </p>
-                                    <p class = "subheading"> <span> &#8226</span>2016</p>
-                                    <p> <span> &#8226</span> Independently maintained the well-being of various species animals on a daily basis</p>
-                                    <p> <span> &#8226</span> Assisted with observational research by monitoring subjects and recording data</p>
-                                </div>
-                            </div>
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
 
-                        </div> 
-                    </span>
-                </div>
-            </li>
-        </ul>
-    </section>
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">July 2014 - September 2014</p>
+                            <h3>Univeristy of Wisconsin-Madison</h3>
+                            <h5>Research Assistant and Farm Hand on Beef Grazing and Nutrition Station</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Collaborated with farm hands and researchers to maintain and optimize animal research studies </p>
+                            <p> high caliber work ethic by completing dozens of various tasks such as administering vaccinations, performing health checks, and even corralling cattle on a four-wheeler</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">July 2014 - September 2014</p>
+                            <h3>Univeristy of Wisconsin-Madison</h3>
+                            <h5>Animal   Caretaker   at   the   Livestock   Lab</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Independently maintained the well-being of   various species of animals on a daily basis
+                            <p>Contributed to research studies by precisely   documenting both quantitative and qualitative data</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div id="fullHis" class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            
+                            <!-- <h3><a href="www.facebook.com">Full Work History</a></h3> -->
+                            <h3><a href="images/audrey-fletcher-work-history.pdf">Full Work History</a></h3>
+                            
+                        </div>
+                    </div>
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> 
+        <!-- end about-content timeline -->
+    </section> <!--end skills -->
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>Past Projects.</h1>
                 
-    <script src="js/coverr.js"></script>
+                <!-- <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p> -->
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/showAndTell.jpg" class="thumb-link" title="showAndTell" data-size="1050x700">
+                                <img src="images/portfolio/showAndTell.jpg" 
+                                     srcset="images/portfolio/showAndTell.jpg 1x, images/portfolio/showAndTell2.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Show and Tell
+                            </h3>
+                            <p class="item-folio__cat">
+                                Developer Portfolio Platform 
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>The idea behind Show and Tell was to create a functional way for developers to display their projects to people who may not have a tech background or who are intimidated by github. Show and Tell allows the viewer to explore the each of the developer's projects by seeing an image, summary, any contributing developers, the main technologies used, as well as links to the live project and github code.</p>
+                            <p> React.js | MongoDB | Mongoose | Express.js </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick beetle-->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/jusGo.jpg" class="thumb-link" title="jusGo" data-size="1050x700">
+                                <img src="images/portfolio/jusGo.jpg" 
+                                     srcset="images/portfolio/jusGo.jpg 1x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                JusGo
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Jusgo is answer to your work day blues. JusGo helps to facilitate a last minute getaway for the upcoming weekend. The user can choose what weather sounds appealing and the closest airport and JusGo will output possible locations for a weekend trip!</p>
+                            <p> Javascript | Google Flights API | Weather Channel API </p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick lighthouse-->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/order-up.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/order-up.jpg" 
+                                     srcset="images/portfolio/order-up.jpg 1x, images/portfolio/order-up.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Order-Up
+                            </h3>
+                            <p class="item-folio__cat">
+                                MySql
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Order-Up is a simple way for a restaurant to track customer food orders by listing the orders that are not made yet, allowing user to click "Order Up!" when the food has been made, and listing the completed orders.</p>
+                            <p>MySql | Sequelize | Express.js | Handlebars</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick salad-->
+
+                 <!-- <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div>   -->
+                <!-- end masonry__brick woodcraft-->
+
+                 <!-- <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Skaterboy
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div>   -->
+                <!-- end masonry__brick skaterboy-->
+
+                 <!-- <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div>   -->
+                <!-- end masonry__brick liberty-->
+
+                <!-- <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Minimalismo
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div>  -->
+                <!-- end masonry__brick minimalism -->
+
+                <!-- <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div>  -->
+                <!-- end masonry__brick shutterbug-->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+
+
+    <!-- testimonials
+    ================================================== -->
+    <!-- <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">What People Say.</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    <div class="testimonials__author h06">
+                        Tim Cook
+                        <span>CEO, Apple</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                    <div class="testimonials__author h06">
+                        Sundar Pichai
+                        <span>CEO, Google</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                    <div class="testimonials__author h06">
+                        Satya Nadella
+                        <span>CEO, Microsoft</span>
+                    </div>
+                </div>
+                
+            </div> 
+
+        </div>
+
+    </div>  -->
+    <!-- end s-testimonials -->
+
+
+       <!-- blog
+    ================================================== -->
+     <!-- <section id="blog" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Journal</h3>
+                <h1>Latest From The Blog.</h1>
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute. 
+                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
+                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
+        </div>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                <div class="blog-list block-1-2 block-tab-full">
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 16, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 15, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Photography</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 14, 2017</a>
+                        </div>
+
+                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
+                        </div>
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 12, 2017</a>
+                        </div>    
+                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
+                        </div>
+                    </article>
+                </div> 
+
+            </div> 
+        </div> 
+
+    </section>   -->
+    <!-- end s-blog    -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <!-- <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    128
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1500
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    110
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    101
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
+        </div>
+    </section>  -->
+    <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+     <!-- <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Phone: (+63) 555 1212<br>
+                Mobile: (+63) 555 0100<br>
+                Fax: (+63) 555 0101
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>someone@holawebsite.com<br>
+                info@holawebsite.com
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                1600 Amphitheatre Parkway<br>
+                Mountain View, CA<br>
+                94043 US
+                </p>
+            </div>
+
+        </div>
+
+    </section>   -->
+    <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <ul class="footer-social">
+                    <li>
+                        <a href="https://www.linkedin.com/in/audrey-fletcher/"><i class="im im-linkedin" aria-hidden="true"> </i><span>LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/afletch24"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+                    </li>
+                
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Hola 2017</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
