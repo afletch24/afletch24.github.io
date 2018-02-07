@@ -2674,8 +2674,8 @@ html.no-csstransitions .home-content__main {
     background-image: url("../images/testimonial-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 9.6rem;
-    padding-bottom: 10.2rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2845,7 +2845,10 @@ html.no-csstransitions .home-content__main {
     text-transform: none;
     letter-spacing: 0;
 }
-
+#testRow {
+    max-width: 1450px !important;
+    
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
