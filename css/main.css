@@ -377,7 +377,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #862121;
+    background: #003366;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -386,7 +386,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #862121;
+    color: #033661;
 }
 
 dd {
@@ -517,7 +517,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #003366;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -903,8 +903,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #003366;
+    color: #003366;
 }
 
 .btn--pill, button.btn--pill {
@@ -1130,7 +1130,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #003366;
 }
 
 .stats-tabs li a em {
@@ -1423,11 +1423,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #003366;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #003366;
 }
 
 .blog-list .blog-date a:hover, 
@@ -1452,7 +1452,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-cat a:hover, 
 .blog-list .blog-cat a:focus, 
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #003366;
 }
 
 .blog-list .blog-cat a::after {
@@ -2438,21 +2438,25 @@ html.no-csstransitions .home-content__main {
 .masonry__brick {
     float: left;
     padding: 0;
+    
 }
 
 .item-folio {
     position: relative;
     overflow: hidden;
+   
 }
 
 .item-folio__thumb img {
     vertical-align: top;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    
 }
 
 .item-folio__thumb .shadow-overlay {
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
